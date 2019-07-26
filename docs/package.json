@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {
+    "@daminort/data-caster": "file:../../lib",
+    "docz": "^2.0.0-rc.1",
+    "gatsby-theme-docz": "^1.2.0",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "scripts": {
+    "start": "docz dev",
+    "build": "docz build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC"
+}

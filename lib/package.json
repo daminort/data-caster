@@ -1,0 +1,32 @@
+{
+  "name": "@daminort/data-caster",
+  "version": "0.0.1",
+  "description": "A tool for cast and coerce data from one format to another",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daminort/data-caster.git"
+  },
+  "keywords": [
+    "cast",
+    "coerce",
+    "types"
+  ],
+  "author": "Daminort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daminort/data-caster/issues"
+  },
+  "homepage": "https://github.com/daminort/data-caster#readme",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^4.38.0",
+    "webpack-cli": "^3.3.6"
+  }
+}

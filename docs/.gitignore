@@ -1,0 +1,10 @@
+# dependencies
+/node_modules
+
+# build
+/build
+/.docz
+
+# misc
+/.idea
+yarn-error.lock
