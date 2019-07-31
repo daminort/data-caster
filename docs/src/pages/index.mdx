@@ -1,12 +1,27 @@
 ---
-name: Hello world
+name: Getting started
 route: /
 ---
 
-import { Button } from '../components/Button';
+import { Code } from '../components/Code';
+import { basicUsageAdapt, basicUsageRevert } from '../code/getting-started';
 
-# Hello world
+# Getting started
 
-Hello, I'm a mdx file!
+## Installation
 
-<Button />
+<Code language="bash">
+    {'$ npm install --save @daminort/data-caster'}
+</Code>
+
+## Adapt data from server
+
+<Code>
+    {basicUsageAdapt}
+</Code>
+
+## Prepare data for server
+
+<Code>
+    {basicUsageRevert}
+</Code>

@@ -4,15 +4,16 @@
   "description": "",
   "dependencies": {},
   "devDependencies": {
-    "@daminort/data-caster": "file:../../lib",
     "docz": "^2.0.0-rc.1",
     "gatsby-theme-docz": "^1.2.0",
     "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-syntax-highlighter": "^11.0.2"
   },
   "scripts": {
-    "start": "docz dev",
+    "start": "docz dev --port=8990",
     "build": "docz build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
