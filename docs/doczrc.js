@@ -2,10 +2,27 @@ export default {
 	files: '**/*.{mdx}',
 	title: 'Data Caster Docs',
 	themeConfig: {
-		mode: 'dark',
+		// mode: 'dark',
+		// styles: {
+		// 	Container: {
+		// 		p: 0,
+		// 		maxWidth: 1400,
+		// 	},
+		// },
 	},
 	menu: [
-		'Getting started',
-		'Code Demo',
+		{
+			name: 'General',
+			menu: [
+				'Getting started',
+			],
+		},
+		{
+			name: 'Transformations',
+			menu: [
+				'Basics',
+				'Phases',
+			],
+		},
 	],
 };
