@@ -24,5 +24,11 @@ export default {
 				'Phases',
 			],
 		},
+		{
+			name: 'API reference',
+			menu: [
+				'init',
+			],
+		},
 	],
 };
