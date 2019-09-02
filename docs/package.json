@@ -2,15 +2,17 @@
   "name": "docs",
   "version": "0.0.1",
   "description": "",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
+    "acorn": "^7.0.0",
     "docz": "^2.0.0-rc.1",
+    "gatsby-plugin-typescript": "^2.1.6",
     "gatsby-theme-docz": "^1.2.0",
     "gh-pages": "^2.0.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-syntax-highlighter": "^11.0.2"
+    "react-syntax-highlighter": "^11.0.2",
+    "to-style": "^1.3.3"
   },
   "scripts": {
     "start": "docz dev --port=8990",
