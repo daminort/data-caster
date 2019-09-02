@@ -5,7 +5,8 @@ menu: API reference
 ---
 
 import { Code } from '../components/Code';
-import { signature, options, example } from '../code/api-init';
+import { Comparison } from '../components/Comparison';
+import { signature, options, example, before, after } from '../code/api-init';
 
 # init
 
@@ -32,3 +33,8 @@ If you don't need to replace default options you can omit using this method at a
 <Code>
     {example}
 </Code>
+
+<Comparison
+    before={before}
+    after={after}
+/>

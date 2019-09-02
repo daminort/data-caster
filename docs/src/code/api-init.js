@@ -19,3 +19,17 @@ export const example =
 	
 const result = dc.adapt(serverObject);
 `;
+
+export const before =
+`{
+	id: 1,
+	user_name: 'John Snow',
+}
+`;
+
+export const after =
+	`{
+	id: 1,
+	user_name: 'John Snow',
+}
+`;
