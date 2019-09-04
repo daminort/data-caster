@@ -1,6 +1,6 @@
 {
   "name": "@daminort/data-caster",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A tool for cast and coerce data from one format to another",
   "main": "dist/index.js",
   "scripts": {

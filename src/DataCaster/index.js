@@ -5,6 +5,7 @@ const {
 	isArray,
 	isFunction,
 	isPlainObject,
+	cloneDeep,
 	toInteger,
 	toNumber,
 } = require('../libs/lodash');
@@ -216,6 +217,15 @@ function DataCaster() {
 		};
 
 		return this;
+	}
+
+	this.clone = () => {
+		const instance = new DataCaster().init(this._options);
+
+		instance._fields = cloneDeep(this._fields);
+		instance._excludedFields = cloneDeep(this._excludedFields);
+
+		return instance;
 	}
 
 	// Excluded fields ------------------------------------------------------------------------------

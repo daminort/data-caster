@@ -1,4 +1,5 @@
 const init = require('./init');
+const clone = require('./clone');
 const functionDefinitions = require('./functionDefinitions');
 const simpleFields = require('./simpleFields');
 const processors = require('./processors');
@@ -23,6 +24,7 @@ const revertExcluded = require('./revertExcluded');
 
 describe('DataCaster', () => {
 	describe(init.name, init.test);
+	describe(clone.name, clone.test);
 	describe(functionDefinitions.name, functionDefinitions.test);
 	describe(simpleFields.name, simpleFields.test);
 	describe(processors.name, processors.test);
