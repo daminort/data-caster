@@ -1,5 +1,10 @@
 # data-caster
-A tool for cast and coerce data from one format to another
+A tool for cast and coerce data from one format to another,
+so you always can be sure that data you use in your components has certain shape and type.
+
+### Documentation
+
+Feel free to visit the documentation site: [Data-Caster Docs](https://daminort.github.io/data-caster-docs/)
 
 ### Installation
 
